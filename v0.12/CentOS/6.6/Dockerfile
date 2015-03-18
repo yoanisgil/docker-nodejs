@@ -10,3 +10,5 @@ RUN ./configure && make && make install
 RUN rm -rf /tmp/node*
 RUN yum remove -y autoconf automake bison byacc cscope ctags diffstat doxygen systemtap swig  subversion rpm-build redhat-rpm-config rcs patchutils patch libtool intltool  indent  gcc-gfortran  gcc-c++  flex elfutils
 RUN yum clean all
+
+CMD [ "node" ]
