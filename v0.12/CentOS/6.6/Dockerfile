@@ -1,6 +1,6 @@
 FROM centos:centos6
 
-MAINTENER Yoanis Gil <gil.yoanis@gmail.com>
+MAINTAINER Yoanis Gil <gil.yoanis@gmail.com>
 
 RUN yum -y groupinstall "Development tools"
 RUN yum install -y tar wget
